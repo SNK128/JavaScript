@@ -5,7 +5,7 @@ console.log("har\"".length)
 const sentence='The quick brown fox jumps over the lazy dog'
 const word='fox'
 const word2='fox1'
-console.log(sentence.includes(word)) //rturns boolean
+console.log(sentence.includes(word)) //returns boolean
 console.log(`The word "${word}" ${sentence.includes(word)?'is' : 'is not'} in the sentence`);
 console.log(`The word "${word2}" ${sentence.includes(word2)?'is' : 'is not'} in the sentence`);
 //startsWith
@@ -24,4 +24,4 @@ console.log(amount)
 
 let b='kkkkkk'
 b[0]='a'
-console.log(b)
+console.log(b) //strings are immutable
